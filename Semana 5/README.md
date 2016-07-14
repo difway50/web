@@ -1,0 +1,1 @@
+Este es el primer homepage que hicimos pero ahora con el responsive design.
