@@ -32,7 +32,7 @@ aside {
 	font-size: 1em;
 	text-align: left;
 	border: 1px solid red;
-    width: 110%;
+    width: 50%;
 }
 
 aside > div > ul {
@@ -72,8 +72,11 @@ img {
 
 @media screen and (max-width: 500px) {
 	aside {
-		float: none
-		max-width: 75%;
+		float: left;
+		max-width: 40%;
+		padding-right: 60%;
+		background-color: orange;
+		text-align: left;
 	}
 	nav {
 		max-width: 75%;
