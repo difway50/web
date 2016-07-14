@@ -1,0 +1,76 @@
+#wrapper{
+	width:1000px;
+	margin: auto;
+}
+
+nav ul{
+	background-color: black;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	display: inline;
+	width: 60px;
+	padding: 1%;
+	margin-left: 10%;
+	color: white;
+	font-family: Helvetica, San-serif;
+	list-style: none;
+}
+
+header {
+	background-image: url(../images/mccafe-image.jpg);
+	height: 655.5px;
+	z-index: auto;
+	
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Helvetica, san-serif;
+	text-align: center;
+	padding-top: 110px;
+	padding-right: 70px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+li a:hover{
+	background-color: black;
+}
+
+h2{
+	color:orange;
+	
+}
+
+section {
+	width: 90%;
+	margin: auto;
+}
+
+article{
+	width: 47%;
+	float: left;
+	margin: 12px;
+
+}
+
+
+footer {
+	position: bottom;
+	background-color: black;
+	color: white;
+	padding: 0;
+	clear:both;
+}
+
+
+
+
+
