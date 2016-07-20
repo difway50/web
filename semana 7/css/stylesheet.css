@@ -1,0 +1,151 @@
+#wrapper {
+	max-width: 100%;
+	background-image:url("../Images/Background/Background image gradient.png");
+	width: 1200px;
+	height: 1440px;
+	margin: auto;
+	z-index: 0;
+	
+}
+
+#logo{
+	height: 180.00px;
+	margin-top: 20px;
+	padding-top: 10px;
+	
+}
+nav{
+	text-align: center;
+}
+
+ul {
+	/*list-style-type: none;
+	margin: auto;
+	padding: auto;
+	overflow: hidden;	
+	text-align: center;*/
+}
+li {
+	display: inline;
+}	
+
+li>a {
+	
+	color: black;
+	font-size: 1.20em;
+	text-decoration: none;
+	margin: auto;
+	padding: 100px;
+}
+a:hover, a:active {
+	color: white;
+}
+
+#row1 {
+	width: 300px;
+	height: 20px;
+	display: block;
+	float: left;
+
+}
+div.left1 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 1.jpg");
+	margin-left: 75px;
+
+
+}
+div.center1 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 2.jpeg");
+	margin-left: 75px;
+}
+div.right1 {
+	width: 300px;
+	height: 300px;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 3.jpeg");
+	float: left;
+	margin-left: 75px;
+}
+section {
+	margin-top: 60px;
+	display: block;
+}
+div.left2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 4.jpeg");
+	margin-left: 75px;
+	margin-top: 20px;
+
+}
+div.center2 {
+	width: 300px;
+	height: 300px;
+	float: left;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 5.jpeg");
+	margin-left: 75px;
+	margin-top: 20px;
+}
+div.right2 {
+	width: 300px;
+	height: 300px;
+	z-index: 10;
+	background-image: url("../Images/Ejemplos/ejemplo 6.jpeg");
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+} 
+p {
+	clear: both;
+	margin: auto;
+	padding-left: 325px;
+	padding-top: 75px;
+	font-size: 1.2em;
+	font-family: Helvetica;
+	justify-content: center;
+}
+h1{
+	padding-top: 50px;
+	font-family: Helvetica;
+	font-size: 4em;
+	padding-left: 425px;
+	color: black;
+	float: left;
+}
+
+@media screen and (max-width: 500px) {
+	nav {
+		float: left;
+		max-width: 75%;
+		background-color: orange;
+		text-align: center;
+	}
+	p {
+		float: left;
+		padding-left: 10px;
+		justify-content: center;
+		max-width: 300px;
+	}
+	h1{
+		float: left;
+		padding-left: 10px;
+		max-width: 300;
+	}
+}
+
+
+
+
+
+
