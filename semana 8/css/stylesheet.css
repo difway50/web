@@ -13,7 +13,7 @@ h1{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#bulbasaur {
+#bulbasaur{
 	border-radius: 10%;
 	border: 20px solid #92c9ab;
 	width: 291px;
@@ -22,6 +22,12 @@ h1{
 	margin-top: 10px;
 	margin-left: 10px;
 	background-color: #7dc9ab;
+}
+#bulbasaur:hover #bulabsaur:active{
+	-webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
 }
 #ivysaur {
 	border-radius: 10%;
