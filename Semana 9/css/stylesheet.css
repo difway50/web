@@ -16,6 +16,8 @@ h1{
 	margin: auto;
 	color: blue;
 	padding-left: 840px;
+	font-family: "Spumante", Great Vibes, Helvetica;
+	padding-top: 10px;
 
 }
 #izquierda{
@@ -68,7 +70,7 @@ h1{
 	font-size: 2em;
 	font-family: Helvetica;
 	color: gray;
-	opacity: 0.5;
+	opacity: 0.7;
 	margin-bottom: 30px;
 	border-radius: 1%;
 	border: 1px solid black;
