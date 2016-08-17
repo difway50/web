@@ -1,0 +1,79 @@
+.carousel-inner{
+	height: 70%;
+	width: 50%;
+	margin: auto;
+}
+
+li{
+	list-style: none;
+	font-family: Helvetica;
+}
+
+.columna-1 {
+	height: 225px;
+	width: 225px;
+	margin-top: 60px;
+}
+
+.btn-default{
+	margin-top: 165px;
+
+}
+
+.about {
+	opacity: 0.5;
+	margin-top: 40px;
+	margin-left: 25%;
+}
+div.about p{
+	font-size: 1.2em;
+	font-family: Helvetica;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+
+}
+
+#myCarousel{
+	margin-top: 40px;
+
+}
+.btn-primary{
+	font-size: 1.5em;
+
+}
+
+.pequeño{
+	font-family: Helvetica;
+	
+	font-size: 1.3em;
+}
+
+.columna-2 {
+	height: 425px;
+	width: 425px;
+	margin-top: 40px;
+	
+}
+.right{
+	margin-right: 50px;
+	background-color: white;
+	opacity: 0.7;
+}
+
+.grande{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+/*
+<div class="row"><a href="index.html" class="col-xs-4" class="col-lg-4"><img src="img/logo.png"></a>
+		<ul>
+			<li class="col-xs-2" class="col-lg-2"><a href="Index.html" class="btn btn-default">Home</a></li>
+			<li class="col-xs-2" class="col-lg-2"> <a href="#" class="btn btn-default">Engravings</a></li>
+			<li class="col-xs-2" class="col-lg-2"> <a href="Contacts.html" class="btn btn-default">contacts</a></li>
+			<li class="col-xs-2" class="col-lg-2"> <a href="#" class="btn btn-default">About us</a></li>
+		</ul>
+	</div>
